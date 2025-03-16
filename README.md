@@ -121,9 +121,9 @@ By integrating these advancements, the **smart grid can evolve into a fully auto
 ---
 
 ## 🤝 Contributors  
-- **[A Ahmed]** – Hardware & Software Integration  
-- **[S Siva Kumar]** – IoT & Cloud Implementation  
-- **[Yaswanth M]** – Power Electronics & Circuit Design   
+- **A Ahmed**
+- **S Siva Kumar**
+- **Yaswanth M** 
 
 ---
 
