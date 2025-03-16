@@ -15,19 +15,19 @@ The smart grid system integrates solar, wind, and battery storage with automated
 The smart grid system integrates **Arduino Mega** and **ESP32** for automation, using sensors, relays, and power converters to manage renewable energy sources (solar and wind) alongside battery storage. **Arduino Mega** handles sensor data, relay control, and fault protection, while **ESP32** enables Wi-Fi-based remote monitoring via **Blynk**. Sensors measure voltage, current, power, temperature, light, and wind speed to optimize energy flow and detect faults. Power converters regulate voltage for efficient operation, and relays automate switching to ensure stable power distribution. Energy storage includes a **main battery** and **load-side batteries** for backup. Communication uses **Wi-Fi, UART, and I2C** for real-time data exchange. Software tools like **Arduino IDE, Blynk, Lucidchart, and Fusion 360** assist in programming, visualization, and system design. Safety measures include overvoltage, short-circuit protection, and manual control through LEDs, buzzers, and push buttons, ensuring reliability and efficiency.
 
 ## Challenges & Solutions Summary
-1. Wind Turbine Issues & Fixes
-BLDC Cost: Replaced with rewound DC motor (100W → 50W) for efficiency.
-Heavy Rotor & Low Output: Reduced size, switched to aluminum blades.
 
-Bearing Damage: Used a carrying cup to prevent heat damage.
-High Gear Ratio Cost: Adjusted to a 16:98 ratio for affordability.
+### Wind Turbine Issues & Fixes
+- **BLDC Cost:** Replaced with rewound DC motor (100W → 50W) for efficiency.  
+- **Heavy Rotor & Low Output:** Reduced size, switched to aluminum blades.  
+- **Bearing Damage:** Used a carrying cup to prevent heat damage.  
+- **High Gear Ratio Cost:** Adjusted to a 16:98 ratio for affordability.  
 
-2. Smart Grid Setup Fixes
-Relay Power Fluctuations: Switched to a stable 5V battery supply.
-Overloaded Buck Converter: Upgraded from 2A to 5A for reliable power.
+### Smart Grid Setup Fixes
+- **Relay Power Fluctuations:** Switched to a stable 5V battery supply.  
+- **Overloaded Buck Converter:** Upgraded from 2A to 5A for reliable power.  
 
-3. Code & Communication Fixes
-Pin Assignments: Used mapping diagrams and I2C expanders.
-I2C Conflicts: Verified addresses using an I2C scanner.
-Code Organization: Used meaningful names, modular functions, and flowcharts.
-Data Transmission: Used UART with timing control for smooth communication.
+### Code & Communication Fixes
+- **Pin Assignments:** Used mapping diagrams and I2C expanders.  
+- **I2C Conflicts:** Verified addresses using an I2C scanner.  
+- **Code Organization:** Used meaningful names, modular functions, and flowcharts.  
+- **Data Transmission:** Used UART with timing control for smooth communication.  
