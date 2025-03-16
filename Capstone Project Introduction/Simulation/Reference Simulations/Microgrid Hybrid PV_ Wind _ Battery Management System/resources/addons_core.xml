@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>Microgrid Hybrid PV/ Wind / Battery Management System</label>
+  <version>1.3.0.0</version>
+  <type>zip</type>
+  <identifier>b2d1305c-d4b9-4765-941f-65f7e13026fb</identifier>
+  <createdBy name="PIRC"/>
+  <image>resources/screenshot.png</image>
+</addonCore>

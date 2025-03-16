@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigSetInfo>
+  <ConfigSet PartName="/simulink/configSet0.xml">Configuration</ConfigSet>
+  <ConfigSet PartName="/simulink/configSet1.xml" Active="true">Configuration1</ConfigSet>
+</ConfigSetInfo>

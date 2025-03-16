@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicalInterface>
+  <P Name="NumRootInports">0</P>
+  <P Name="NumRootOutports">0</P>
+  <P Name="ParameterArgumentNames"/>
+  <P Name="NumModelReferences">0</P>
+  <P Name="NumTestPointedSignals">0</P>
+  <P Name="NumProvidedFunctions">0</P>
+  <P Name="NumRequiredFunctions">0</P>
+  <P Name="NumResetEvents">0</P>
+  <P Name="HasInitializeEvent">0</P>
+  <P Name="HasTerminateEvent">0</P>
+  <P Name="PreCompExecutionDomainType">Unset</P>
+  <P Name="IsExportFunctionModel">0</P>
+  <P Name="IsArchitectureModel">0</P>
+  <P Name="IsAUTOSARArchitectureModel">0</P>
+  <P Name="NumParameterArguments">0</P>
+  <P Name="NumExternalFileReferences">82</P>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/ power Measurements</P>
+    <P Name="SID">2376</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsDieselMotorModel/Diesel Engine Governor</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Diesel Engine Governor</P>
+    <P Name="SID">8018</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sps_avr/Excitation System</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Excitation System</P>
+    <P Name="SID">2393</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Power (3ph, Phasor)</P>
+    <P Name="SID">8019</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Machines/Synchronous Machine
+pu Standard</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Synchronous Machine pu Standard</P>
+    <P Name="SID">2399</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Parallel RLC Load</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Three-Phase Parallel RLC Load1</P>
+    <P Name="SID">185</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Transformer
+(Two Windings)</P>
+    <P Name="Path">$bdroot/Diesel Generator 15 MW/Transformer 25kV//25kV</P>
+    <P Name="SID">184</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA / ASM Measurements</P>
+    <P Name="SID">3867</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA / Load Measurements</P>
+    <P Name="SID">4471</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">V2Glib/Asynchronous Machine (custom)</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Asynchronous Machine (customized)</P>
+    <P Name="SID">5846</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase Breaker</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Breakers</P>
+    <P Name="SID">4698</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Power (3ph, Phasor)3</P>
+    <P Name="SID">8033</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Power (3ph, Phasor)4</P>
+    <P Name="SID">8037</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/CSb</P>
+    <P Name="SID">2040</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/Csa</P>
+    <P Name="SID">2042</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/Series RLC Branch</P>
+    <P Name="SID">2075</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/Series RLC Branch1</P>
+    <P Name="SID">2076</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/Voltage Measurement1</P>
+    <P Name="SID">2077</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Residential Load/Voltage Measurement2</P>
+    <P Name="SID">2078</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Parallel RLC Load</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Three-Phase Parallel RLC Load</P>
+    <P Name="SID">162</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Series RLC Branch</P>
+    <P Name="Path">$bdroot/Load Residential = 10 MW, PF=0.15 ASM = 0.16 MVA /Three-Phase Series RLC Branch</P>
+    <P Name="SID">8431</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/CSb</P>
+    <P Name="SID">2197</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/Csa</P>
+    <P Name="SID">2200</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/Series RLC Branch</P>
+    <P Name="SID">2211</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/Series RLC Branch1</P>
+    <P Name="SID">2212</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/Voltage Measurement1</P>
+    <P Name="SID">2213</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/PV Farm/Voltage Measurement2</P>
+    <P Name="SID">2214</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/Power (3ph, Phasor)2</P>
+    <P Name="SID">8028</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/PV Farm 8 MW/VabcPV</P>
+    <P Name="SID">2228</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/Partial Shading/Compare To Constant</P>
+    <P Name="SID">2271</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/Partial Shading/Compare To Constant1</P>
+    <P Name="SID">2272</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Transformer
+(Two Windings)</P>
+    <P Name="Path">$bdroot/Transformer 25kV//600V</P>
+    <P Name="SID">8084</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/ Charge measurement</P>
+    <P Name="SID">5835</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/ Regulation  measurement</P>
+    <P Name="SID">5834</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/CSb</P>
+    <P Name="SID">2435</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/CSb1</P>
+    <P Name="SID">2635</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 1/Charger control/Compare To Constant</P>
+    <P Name="SID">2623</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 1/Charger control/Compare To Constant1</P>
+    <P Name="SID">2624</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 1/Charger control/S-R Flip-Flop</P>
+    <P Name="SID">2625</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 2/Charger control/Compare To Constant</P>
+    <P Name="SID">6075</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 2/Charger control/Compare To Constant1</P>
+    <P Name="SID">6076</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 2/Charger control/S-R Flip-Flop</P>
+    <P Name="SID">6080</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 3/Charger control/Compare To Constant</P>
+    <P Name="SID">6123</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 3/Charger control/Compare To Constant1</P>
+    <P Name="SID">6124</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 3/Charger control/S-R Flip-Flop</P>
+    <P Name="SID">6128</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 4/Charger control/Compare To Constant</P>
+    <P Name="SID">6219</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 4/Charger control/Compare To Constant1</P>
+    <P Name="SID">6220</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 4/Charger control/S-R Flip-Flop</P>
+    <P Name="SID">6224</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 5/Charger control/Compare To Constant</P>
+    <P Name="SID">7964</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 5/Charger control/Compare To Constant1</P>
+    <P Name="SID">7965</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Car profiles/Car profile 5/Charger control/S-R Flip-Flop</P>
+    <P Name="SID">7969</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Csa</P>
+    <P Name="SID">2437</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Csa1</P>
+    <P Name="SID">2636</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Grid regulation/Grid regulation ocntrol/Compare To Constant</P>
+    <P Name="SID">4394</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Grid regulation/Grid regulation ocntrol/Compare To Constant1</P>
+    <P Name="SID">4395</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Grid regulation/Grid regulation ocntrol/Compare To Constant2</P>
+    <P Name="SID">4396</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Discontinuities/Saturation
+Dynamic</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Grid regulation/Grid regulation ocntrol/Saturation Dynamic</P>
+    <P Name="SID">4407</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Power (3ph, Phasor)5</P>
+    <P Name="SID">8042</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Power (3ph, Phasor)6</P>
+    <P Name="SID">8045</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Series RLC Branch</P>
+    <P Name="SID">2468</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Series RLC Branch1</P>
+    <P Name="SID">2469</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Series RLC Branch2</P>
+    <P Name="SID">2698</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Series RLC Branch3</P>
+    <P Name="SID">2699</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Voltage Measurement1</P>
+    <P Name="SID">2470</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Voltage Measurement2</P>
+    <P Name="SID">2471</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Voltage Measurement3</P>
+    <P Name="SID">2700</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/V2G 4 MW (100x40 kW)/Voltage Measurement4</P>
+    <P Name="SID">2701</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Transformer
+(Two Windings)</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/25 kV// 575 V 6*2 MVA</P>
+    <P Name="SID">1675</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Three-Phase
+V-I Measurement</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/B575 (575 V)</P>
+    <P Name="SID">1676</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Three-Phase
+Series RLC Load</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Load 1kW</P>
+    <P Name="SID">1678</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib_meascontrol/Measurements/Power
+(3ph, Phasor)</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Power (3ph, Phasor)1</P>
+    <P Name="SID">8024</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/CSb</P>
+    <P Name="SID">1818</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Compare To Constant</P>
+    <P Name="SID">1819</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Electrical
+Sources/Controlled Current Source</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Csa</P>
+    <P Name="SID">1825</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Series RLC Branch</P>
+    <P Name="SID">1839</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Elements/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Series RLC Branch1</P>
+    <P Name="SID">1840</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Voltage Measurement1</P>
+    <P Name="SID">1842</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/Measurements/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind Farm/Voltage Measurement2</P>
+    <P Name="SID">1843</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind farm control/Compare To Constant</P>
+    <P Name="SID">2152</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Logic and Bit
+Operations/Compare
+To Constant</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind farm control/Compare To Constant1</P>
+    <P Name="SID">2160</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink_extras/Flip Flops/S-R
+Flip-Flop</P>
+    <P Name="Path">$bdroot/Wind Farm  4.5 MW/Wind farm control/S-R Flip-Flop</P>
+    <P Name="SID">2158</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">powerlib/powergui</P>
+    <P Name="Path">$bdroot/powergui</P>
+    <P Name="SID">134</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <P Name="OrderedModelArguments">1</P>
+</GraphicalInterface>

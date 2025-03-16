@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" defaultPackage="coderdictionary.data" packageUris="http://schema.mathworks.com/mf0/coderdictionary_data/R2019b http://schema.mathworks.com/mf0/coderdictionary_data/R2019b/coderdictionary.data">
+  <Container type="Container" uuid="04364d2f-c06a-4f13-ae82-942dd098adab">
+    <CDefinitions type="C_Definitions" uuid="ec4ecae9-6c5e-4f65-9e7f-957acca4e4a3">
+      <SoftwareComponentTemplates type="SoftwareComponentTemplate" uuid="7d8507e0-28aa-49f4-bd25-fb40b9b3712f">
+        <Name>CODER_DICTIONARY</Name>
+        <Constants type="DataConfiguration" uuid="0be25343-c2c4-41d1-84f2-5b3b25f9f2c2">
+          <category>Constants</category>
+        </Constants>
+        <DataTransfers type="DataConfiguration" uuid="ef93945d-388c-488b-980b-aa8498026cfb">
+          <category>DataTransfers</category>
+        </DataTransfers>
+        <Execution type="FunctionConfiguration" uuid="3301fdfd-0121-4817-8385-dddd44420241"/>
+        <GlobalDataStores type="DataConfiguration" uuid="7cfb9fea-417f-4a0c-bb90-871d600ca2d1">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>GlobalDataStores</category>
+        </GlobalDataStores>
+        <GlobalParameters type="DataConfiguration" uuid="5d14a712-d112-4cf7-aeab-632f2b0576d3">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>GlobalParameters</category>
+        </GlobalParameters>
+        <InitializeTerminate type="FunctionConfiguration" uuid="a5df15b0-0aa9-4de4-9a1a-2884db39b7e0"/>
+        <Inports type="DataConfiguration" uuid="12f4f74c-bcb7-4566-8fc7-2443773ec5fa">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>Inports</category>
+        </Inports>
+        <InternalData type="DataConfiguration" uuid="28bafaf4-a57a-4ffb-adf4-4d9976c594d5">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>InternalData</category>
+        </InternalData>
+        <LocalParameters type="DataConfiguration" uuid="8632e130-6b22-4c21-abd4-f4ab9e69a365">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>LocalParameters</category>
+        </LocalParameters>
+        <ModelData type="DataConfiguration" uuid="70daad61-526c-4f8b-a8f9-2cefa17fb125">
+          <category>ModelData</category>
+        </ModelData>
+        <Outports type="DataConfiguration" uuid="e3a3b06b-1e0a-476c-a0b9-85133398c398">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>Outports</category>
+        </Outports>
+        <ParameterArguments type="DataConfiguration" uuid="5a2970c7-e908-4505-bbd5-2c0e4967b178">
+          <category>ParameterArguments</category>
+        </ParameterArguments>
+        <SharedLocalDataStores type="DataConfiguration" uuid="1cb9c34c-396a-4a24-b22a-d7806d67a5b8">
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a"/>
+          <AllowableStorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783"/>
+          <category>SharedLocalDataStores</category>
+        </SharedLocalDataStores>
+        <SharedUtility type="FunctionConfiguration" uuid="2c2b942c-baa3-40de-b3b9-a0a216aa8022"/>
+      </SoftwareComponentTemplates>
+      <StorageClasses type="LegacyStorageClass" uuid="49c69b75-1e5d-4583-8e2e-adfdb3383b6e">
+        <CSCAttributesSchema>[]</CSCAttributesSchema>
+        <ClassName>BuiltinExportedGlobal</ClassName>
+        <LegacyProps type="LegacyProperty" uuid="996e5107-6527-4180-a86e-aabe96923bfe">
+          <Name>CSCTypeAttributesClassName</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="7a08c42b-29a7-41d7-bc4e-a45a8f2d56bc">
+          <Name>CommentSource</Name>
+          <Value>Specify</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="ca45375a-2151-494d-8232-ab4c0e490f50">
+          <Name>DataAccess</Name>
+          <Value>Direct</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="7a44a279-a268-46e3-9abf-34d6447e9a0c">
+          <Name>DataInit</Name>
+          <Value>Auto</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a433c150-fe5b-4a4c-bf41-288bd65b746e">
+          <Name>DataUsage</Name>
+          <Value>SignalOrParameter</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="76aa93b2-77cc-491f-bef4-96e12cc54d35">
+          <Name>DeclareComment</Name>
+          <Value>/* Data with Exported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="f39e1bba-09cf-4940-adb7-65a7eacb6a12">
+          <Name>DeclareCommentForUI</Name>
+          <Value>/* Data with Exported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="06753441-43b6-4966-8ac0-26b0e1eef22c">
+          <Name>DefineComment</Name>
+          <Value>/* Data with Exported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="731f1b00-ad2a-4767-a76e-7a3d9fba2785">
+          <Name>DefineCommentForUI</Name>
+          <Value>/* Data with Exported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="9e437546-3019-4145-992a-79da77544a51">
+          <Name>DefinitionFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="60e224b2-9548-49b1-a347-93ecb5969573">
+          <Name>HeaderFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="871648d0-8618-42bf-8833-a72ffa394595">
+          <Name>IsAutosarPerInstanceMemory</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="fb0422d3-d339-4832-9fc9-f1eeca42d1a7">
+          <Name>IsGrouped</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="1f71ddb8-a0b5-42b1-9df3-88462f38912b">
+          <Name>IsReusable</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="e952ec67-1fa0-4044-8660-5bbe5f52a834">
+          <Name>MemorySection</Name>
+          <Value>None</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="1a7cbbbe-5d34-4c07-b422-6375bdcf0bed">
+          <Name>Owner</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a51544bc-acfc-4d0a-a570-61c6ede76128">
+          <Name>OwnerPackage</Name>
+          <Value>SimulinkBuiltin</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="42f4cf0c-505b-464d-923b-2f73a7fd39fa">
+          <Name>PreserveDimensions</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="28fd7d09-96d4-4bc2-b256-ce54c80d2294">
+          <Name>PreserveDimensionsInstanceSpecific</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="599e5f41-f755-4421-9024-96e3d9386dad">
+          <Name>Scope</Name>
+          <Value>Exported</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="8b1f65f8-eff8-4ce6-8d6c-42b3f555a561">
+          <Name>StorageClass_Packaging</Name>
+          <Value>Unstructured</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="c6b9cf65-3e2a-4253-86d2-a655779359e7">
+          <Name>TLCFileName</Name>
+          <Value>Unstructured.tlc</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="efcc7d2e-1b93-4174-88a5-00472233bf8f">
+          <Name>TypeComment</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="996ab2e9-49d5-4202-bd7b-fa672d253859">
+          <Name>TypeCommentForUI</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <Package>SimulinkBuiltin</Package>
+        <Description>The data item appears as a separate global variable, which the generated code defines.</Description>
+        <configuration type="DataConfiguration" uuid="12f4f74c-bcb7-4566-8fc7-2443773ec5fa"/>
+        <configuration type="DataConfiguration" uuid="e3a3b06b-1e0a-476c-a0b9-85133398c398"/>
+        <configuration type="DataConfiguration" uuid="28bafaf4-a57a-4ffb-adf4-4d9976c594d5"/>
+        <configuration type="DataConfiguration" uuid="1cb9c34c-396a-4a24-b22a-d7806d67a5b8"/>
+        <configuration type="DataConfiguration" uuid="7cfb9fea-417f-4a0c-bb90-871d600ca2d1"/>
+        <configuration type="DataConfiguration" uuid="8632e130-6b22-4c21-abd4-f4ab9e69a365"/>
+        <configuration type="DataConfiguration" uuid="5d14a712-d112-4cf7-aeab-632f2b0576d3"/>
+        <Name>ExportedGlobal</Name>
+        <isBuiltin>true</isBuiltin>
+      </StorageClasses>
+      <StorageClasses type="LegacyStorageClass" uuid="b284fbe6-4f30-4d05-bb67-674a1ba6833a">
+        <CSCAttributesSchema>[]</CSCAttributesSchema>
+        <ClassName>BuiltinImportedExtern</ClassName>
+        <LegacyProps type="LegacyProperty" uuid="64bef7f2-bc52-4145-89fd-ac76dc01a4e5">
+          <Name>CSCTypeAttributesClassName</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="d5661f7d-b329-4204-98e9-a0822bea4779">
+          <Name>CommentSource</Name>
+          <Value>Specify</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="42d1ef99-9f0b-498e-8d4c-f7a1cb129b44">
+          <Name>DataAccess</Name>
+          <Value>Direct</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="7d531266-10a0-4dfa-98f9-11c702f8b9af">
+          <Name>DataInit</Name>
+          <Value>Auto</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="4915196f-1b61-433d-add7-6df49c9aa1f1">
+          <Name>DataUsage</Name>
+          <Value>SignalOrParameter</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a999a2bf-b7f5-40c8-87d3-5e6dac628723">
+          <Name>DeclareComment</Name>
+          <Value>/* Data with Imported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="e52cf37c-15e3-4304-809a-4bb73bdfbec5">
+          <Name>DeclareCommentForUI</Name>
+          <Value>/* Data with Imported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="432b46ea-eb27-4c0e-8403-696e2d6c36dd">
+          <Name>DefineComment</Name>
+          <Value>/* Data with Imported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="ec571952-f56d-4bd1-a44f-b6e5b421ac01">
+          <Name>DefineCommentForUI</Name>
+          <Value>/* Data with Imported storage */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="8e397676-4e6f-4189-9863-d6980aceeec4">
+          <Name>DefinitionFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="5bb014b7-2f41-4566-bda0-c43948c2c063">
+          <Name>HeaderFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="91812702-4925-4397-87f8-dd7eaa809e2b">
+          <Name>IsAutosarPerInstanceMemory</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="fdbdb473-586d-4801-ad8e-41530333e54f">
+          <Name>IsGrouped</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="f25bea23-b06b-4ccd-810f-9bdc1223b5ea">
+          <Name>IsReusable</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="738f9fe1-5ab0-456a-978a-b4f41baaf079">
+          <Name>MemorySection</Name>
+          <Value>None</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="33553fba-a17d-40b9-906c-55cc55aa60a7">
+          <Name>Owner</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="fd15b9bb-a5c9-41cd-bc0d-3b600fec38c0">
+          <Name>OwnerPackage</Name>
+          <Value>SimulinkBuiltin</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="0a0dd664-7817-4cb9-ae92-9e8b97846bd1">
+          <Name>PreserveDimensions</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="c5a358fe-6daa-48aa-93c2-282093a3feef">
+          <Name>PreserveDimensionsInstanceSpecific</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="73c3cd5f-09c5-44d5-9771-3a337770aad6">
+          <Name>Scope</Name>
+          <Value>Imported</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="ca780fde-aa75-424f-83ce-c837d3e151df">
+          <Name>StorageClass_Packaging</Name>
+          <Value>Unstructured</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="9a6463b6-3195-4b67-a76e-3bb97e5cda02">
+          <Name>TLCFileName</Name>
+          <Value>Unstructured.tlc</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="019c4c5c-2ead-4808-9c30-51bb006deacc">
+          <Name>TypeComment</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="945d293d-d9d4-41a0-8f89-6baf4ee629be">
+          <Name>TypeCommentForUI</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <Package>SimulinkBuiltin</Package>
+        <Description>The generated code treats the data item as a global variable, but the code does not define the variable.</Description>
+        <configuration type="DataConfiguration" uuid="12f4f74c-bcb7-4566-8fc7-2443773ec5fa"/>
+        <configuration type="DataConfiguration" uuid="e3a3b06b-1e0a-476c-a0b9-85133398c398"/>
+        <configuration type="DataConfiguration" uuid="28bafaf4-a57a-4ffb-adf4-4d9976c594d5"/>
+        <configuration type="DataConfiguration" uuid="1cb9c34c-396a-4a24-b22a-d7806d67a5b8"/>
+        <configuration type="DataConfiguration" uuid="7cfb9fea-417f-4a0c-bb90-871d600ca2d1"/>
+        <configuration type="DataConfiguration" uuid="8632e130-6b22-4c21-abd4-f4ab9e69a365"/>
+        <configuration type="DataConfiguration" uuid="5d14a712-d112-4cf7-aeab-632f2b0576d3"/>
+        <Name>ImportedExtern</Name>
+        <isBuiltin>true</isBuiltin>
+      </StorageClasses>
+      <StorageClasses type="LegacyStorageClass" uuid="3d00140e-9905-495b-b543-bd24ca564783">
+        <CSCAttributesSchema>[]</CSCAttributesSchema>
+        <ClassName>BuiltinImportedExternPointer</ClassName>
+        <LegacyProps type="LegacyProperty" uuid="840dd7f7-8f3b-468d-b3d7-5e3952bb100d">
+          <Name>CSCTypeAttributesClassName</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="5f132333-bafe-408a-a96c-7604dfe3c239">
+          <Name>CommentSource</Name>
+          <Value>Specify</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a7cf7c17-64db-40aa-8b5a-d388bbce919f">
+          <Name>DataAccess</Name>
+          <Value>Pointer</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="d6b445d5-c497-44a2-9811-d4281af43642">
+          <Name>DataInit</Name>
+          <Value>Auto</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="d3524229-cbc0-43d0-bad6-dd1f887df978">
+          <Name>DataUsage</Name>
+          <Value>SignalOrParameter</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="193b6a1c-535b-476b-af20-cccfedca8005">
+          <Name>DeclareComment</Name>
+          <Value>/* Data with Imported storage (pointer) */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="554b7c85-a19c-4f7c-806d-f0b49c0eeb7b">
+          <Name>DeclareCommentForUI</Name>
+          <Value>/* Data with Imported storage (pointer) */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="e0fa8c68-7c0a-4afd-a013-1fc2631790e2">
+          <Name>DefineComment</Name>
+          <Value>/* Data with Imported storage (pointer) */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a1f25a84-d895-4518-b261-a99e1bbe2dd4">
+          <Name>DefineCommentForUI</Name>
+          <Value>/* Data with Imported storage (pointer) */</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a320410c-990f-441e-abfe-2951a976f697">
+          <Name>DefinitionFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="0535872b-4529-430a-8098-1feb5cda6950">
+          <Name>HeaderFile</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="a8907f2a-6aec-4014-a7b4-033d6cbd10a8">
+          <Name>IsAutosarPerInstanceMemory</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="e237cbf0-bfa2-4646-96f4-7b236fed1118">
+          <Name>IsGrouped</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="58b00741-bbd1-42bb-a991-f555f06ab3b5">
+          <Name>IsReusable</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="356fa618-0dd8-47ec-958e-269dbcd4690a">
+          <Name>MemorySection</Name>
+          <Value>None</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="f92323d8-7f5b-4a86-bcc3-dd3dd9b6b927">
+          <Name>Owner</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="d0cccae1-6ec2-4b8c-904d-3b637f20dc64">
+          <Name>OwnerPackage</Name>
+          <Value>SimulinkBuiltin</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="c7da1725-1f3a-4e45-96dd-6915fb57f6b6">
+          <Name>PreserveDimensions</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="bfcac498-f37c-48b7-8625-8d8b60449e24">
+          <Name>PreserveDimensionsInstanceSpecific</Name>
+          <Value>false</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="fbb202e6-89d6-40c0-a240-1780ba4d7d4e">
+          <Name>Scope</Name>
+          <Value>Imported</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="47e4170b-01b3-4d53-a62c-6f3fe9ceedd7">
+          <Name>StorageClass_Packaging</Name>
+          <Value>Unstructured</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="05939af7-3aa9-45d5-86f9-76aa7519cbea">
+          <Name>TLCFileName</Name>
+          <Value>Unstructured.tlc</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="f62a5ac1-edf4-46e3-8822-8ac7dea8613b">
+          <Name>TypeComment</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <LegacyProps type="LegacyProperty" uuid="c1d6cb0d-3d1f-4b8f-b91f-69633df766a3">
+          <Name>TypeCommentForUI</Name>
+          <Value>---</Value>
+        </LegacyProps>
+        <Package>SimulinkBuiltin</Package>
+        <Description>The generated code treats the data item as a global pointer variable, but the code does not define the variable.</Description>
+        <configuration type="DataConfiguration" uuid="12f4f74c-bcb7-4566-8fc7-2443773ec5fa"/>
+        <configuration type="DataConfiguration" uuid="e3a3b06b-1e0a-476c-a0b9-85133398c398"/>
+        <configuration type="DataConfiguration" uuid="28bafaf4-a57a-4ffb-adf4-4d9976c594d5"/>
+        <configuration type="DataConfiguration" uuid="1cb9c34c-396a-4a24-b22a-d7806d67a5b8"/>
+        <configuration type="DataConfiguration" uuid="7cfb9fea-417f-4a0c-bb90-871d600ca2d1"/>
+        <configuration type="DataConfiguration" uuid="8632e130-6b22-4c21-abd4-f4ab9e69a365"/>
+        <configuration type="DataConfiguration" uuid="5d14a712-d112-4cf7-aeab-632f2b0576d3"/>
+        <Name>ImportedExternPointer</Name>
+        <isBuiltin>true</isBuiltin>
+      </StorageClasses>
+    </CDefinitions>
+  </Container>
+</MF0>

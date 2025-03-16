@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>b2d1305c-d4b9-4765-941f-65f7e13026fb</identifier>
+  <displayType>Simulink Model</displayType>
+  <translatedDisplayType>
+    <en_US>Simulink Model</en_US>
+    <ja_JP>Simulink モデル</ja_JP>
+    <ko_KR>Simulink 모델</ko_KR>
+    <zh_CN>Simulink 模型</zh_CN>
+  </translatedDisplayType>
+  <name>Microgrid Hybrid PV/ Wind / Battery Management System</name>
+  <author>PIRC</author>
+  <version>1.3.0.0</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/b2d1305c-d4b9-4765-941f-65f7e13026fb/e0c63459-7a28-494b-9ff2-178e935d62cb/packages/zip?src=addons_ml_desktop_install&amp;profile_id=27762906&amp;license=41059658&amp;release_family=R2023b</downloadUrl>
+  <licenseUrl>https://addons.mathworks.com/registry/v1/b2d1305c-d4b9-4765-941f-65f7e13026fb/1.3.0.0/-/license</licenseUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/b2d1305c-d4b9-4765-941f-65f7e13026fb/e0c63459-7a28-494b-9ff2-178e935d62cb/images/screenshot.JPG</previewImageUrl>
+  <releaseNotesUrl>https://www.mathworks.com/add-ons/b2d1305c-d4b9-4765-941f-65f7e13026fb/e0c63459-7a28-494b-9ff2-178e935d62cb/releaseNotes</releaseNotesUrl>
+  <installationFolder>Simulink Models</installationFolder>
+</addOn>
