@@ -1,7 +1,7 @@
 # ⚡ EMPOWERING SMART GRID FOR THE FUTURE OF URBAN CENTERS ⚡  
 
 ## 🚀 Introduction  
-This project focuses on integrating **solar and [wind energy](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/60d57e56dd55b29e9b9eb0c78ba2f4bee5c7e864/Capstione%20Project%20Final/Hardware/Wind%20turbine)** with **energy storage** and **automated power management** using **Arduino Mega and ESP32**. It dynamically manages power flow between **renewable sources, battery storage, and loads** through **sensors, relays, and power converters**.  
+This project focuses on integrating **solar and [wind energy](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/60d57e56dd55b29e9b9eb0c78ba2f4bee5c7e864/Capstione%20Project%20Final/Hardware/Wind%20turbine)** with **energy storage** and **automated power management** using **[Arduino Mega and ESP32](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Code/Mega)**. It dynamically manages power flow between **renewable sources, battery storage, and loads** through **sensors, relays, and power converters**.  
 
 ### 🔹 Key Features:  
 ✅ **Real-time Monitoring & Control** via IoT (Blynk)  
@@ -21,8 +21,8 @@ Traditional power grids struggle with **renewable energy integration, real-time 
 - **Reliability issues** causing outages  
 
 ⚡ **Proposed Solution:**  
-- **Smart Grid Architecture** integrating **solar, wind, and batteries**  
-- **IoT-Based Monitoring** for fault detection & remote control  
+- **[Smart Grid Architecture](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/blob/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Hardware/Smart%20Grid/Main%20Circuit.jpeg)** integrating **solar, wind, and batteries**  
+- **[IoT-Based Monitoring](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/blob/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Hardware/Smart%20Grid/Controller%20Circuit.jpeg)** for fault detection & remote control  
 - **Optimized Energy Management & Control**  
 
 ---
@@ -31,12 +31,12 @@ Traditional power grids struggle with **renewable energy integration, real-time 
 The **smart grid system** integrates **solar, wind, and battery storage** with **automated control** to ensure **efficient energy distribution**.  
 
 ### 📌 System Overview:  
-- **Capacity:** 🔆 **50W Solar Panel** | 🌬 **50W Wind Turbine**  
+- **Capacity:** 🔆 **[50W Solar Panel](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Hardware/Smart%20Grid)** | 🌬 **[50W Wind Turbine](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Hardware/Wind%20turbine)**  
 - **Storage:** 🔋 **12.8V / 12Ah Battery** | 🔌 **200W Inverter**  
 - **Loads:** 🏭 Industrial | 🏡 Domestic | 🔧 Fault Detection  
 - **Controllers:** 🖥 **Arduino Mega & ESP32**  
 
-### 🔄 Operation Workflow:  
+### 🔄 [Operation Workflow](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/blob/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Code/Flow%20Chart%20Smart%20Grid.jpeg):  
 1. **Sensors** measure **voltage, current, temperature, wind speed, and light intensity**.  
 2. **Relays & Power Converters** regulate power distribution.  
 3. **ESP32 communicates with Blynk IoT** for real-time monitoring & control.  
@@ -71,7 +71,7 @@ The **smart grid system** integrates **solar, wind, and battery storage** with *
 - **🔹 Relay Power Fluctuations:** Implemented **stable 5V battery supply**.  
 - **🔹 Overloaded Buck Converter:** Upgraded from **2A to 5A** for reliable power.  
 
-### 💾 Code & Communication Fixes  
+### 💾 [Code](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/8d3d2d9fe210ea2541f03b2ab503677cac95f9f9/Capstione%20Project%20Final/Code) & Communication Fixes  
 - **🔹 Pin Assignments:** Used **mapping diagrams & I2C expanders**.  
 - **🔹 I2C Conflicts:** Resolved with **I2C scanner** for address verification.  
 - **🔹 Code Optimization:** Used **modular functions & flowcharts** for clarity.  
