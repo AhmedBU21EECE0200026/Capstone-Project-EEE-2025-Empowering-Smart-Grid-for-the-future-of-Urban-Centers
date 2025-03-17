@@ -8,7 +8,7 @@ This project focuses on integrating **solar and [wind energy](https://github.com
 ✅ **Automated Power Flow Management** for efficiency  
 ✅ **Fault Detection & Protection Mechanism**  
 ✅ **Two-Way Power Flow** for grid integration  
-✅ **Sustainable & Scalable Smart Grid Model**  
+✅ **[Sustainable & Scalable Smart Grid Model](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/c1524018e90aeadde82a902a2782c8b8e8453be9/Capstone%20Project%20Introduction/Simulation)**  
 
 Traditional power grids struggle with **renewable energy integration, real-time energy management, and reliability**. This project develops a **scalable smart grid** with **solar, wind, and battery storage**, reducing **fuel dependency and emissions** while leveraging **IoT for real-time monitoring and control**.  
 
