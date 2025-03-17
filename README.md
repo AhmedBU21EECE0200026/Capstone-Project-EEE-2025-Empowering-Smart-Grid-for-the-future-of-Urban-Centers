@@ -1,7 +1,7 @@
 # ⚡ EMPOWERING SMART GRID FOR THE FUTURE OF URBAN CENTERS ⚡  
 
 ## 🚀 Introduction  
-This project focuses on integrating **solar and [wind energy[([Capstione Project Final/Hardware/Wind turbine](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/60d57e56dd55b29e9b9eb0c78ba2f4bee5c7e864/Capstione%20Project%20Final/Hardware/Wind%20turbine)** with **energy storage** and **automated power management** using **Arduino Mega and ESP32**. It dynamically manages power flow between **renewable sources, battery storage, and loads** through **sensors, relays, and power converters**.  
+This project focuses on integrating **solar and [wind energy](https://github.com/AhmedBU21EECE0200026/Capstone-Project-EEE-2025-Empowering-Smart-Grid-for-the-future-of-Urban-Centers/tree/60d57e56dd55b29e9b9eb0c78ba2f4bee5c7e864/Capstione%20Project%20Final/Hardware/Wind%20turbine)** with **energy storage** and **automated power management** using **Arduino Mega and ESP32**. It dynamically manages power flow between **renewable sources, battery storage, and loads** through **sensors, relays, and power converters**.  
 
 ### 🔹 Key Features:  
 ✅ **Real-time Monitoring & Control** via IoT (Blynk)  
