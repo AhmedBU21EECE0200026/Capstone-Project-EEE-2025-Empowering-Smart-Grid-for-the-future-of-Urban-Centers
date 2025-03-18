@@ -118,6 +118,8 @@ By integrating these advancements, the **smart grid can evolve into a fully auto
 - **Control Relays Remotely** 🔄  
 - **View Fault Alerts & Grid Status** ⚡  
 
+## [Video Link](https://drive.google.com/file/d/1VmupCEmm5TsgqTDT3DKMTguNvh-G3fVf/view?usp=drive_link)
+
 ---
 
 ## 🤝 Contributors  
